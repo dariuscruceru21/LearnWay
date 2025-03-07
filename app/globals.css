@@ -63,28 +63,28 @@
   }
 
   /* Book Cover */
-  .book-cover_extra_small {
+  .course-cover_extra_small {
     @apply w-[28.95px] h-10;
   }
 
-  .book-cover_small {
+  .course-cover_small {
     @apply w-[55px] h-[76px];
   }
 
-  .book-cover_medium {
+  .course-cover_medium {
     @apply w-[144px] h-[199px];
   }
 
-  .book-cover_regular {
+  .course-cover_regular {
     @apply xs:w-[174px] w-[114px] xs:h-[239px] h-[169px];
   }
 
-  .book-cover_wide {
+  .course-cover_wide {
     @apply xs:w-[296px] w-[256px] xs:h-[404px] h-[354px];
   }
 
   /* Book List */
-  .book-list {
+  .course-list {
     @apply mt-10 flex flex-wrap gap-5 max-xs:justify-between xs:gap-10;
   }
 
@@ -97,27 +97,27 @@
     @apply text-5xl font-semibold text-white md:text-7xl;
   }
 
-  .book-info {
+  .course-info {
     @apply mt-7 flex flex-row flex-wrap gap-4 text-xl text-light-100;
   }
 
-  .book-copies {
+  .course-enrollments {
     @apply flex flex-row flex-wrap gap-4 mt-1;
   }
 
-  .book-copies p {
+  .course-enrollments p {
     @apply text-xl text-light-100;
   }
 
-  .book-copies p span {
+  .course-enrollments p span {
     @apply ml-2 font-semibold text-primary;
   }
 
-  .book-description {
+  .course-description {
     @apply mt-2 text-justify text-xl text-light-100;
   }
 
-  .book-overview_btn {
+  .course-overview_btn {
     @apply mt-4 min-h-14 w-fit bg-primary text-dark-100 hover:bg-primary/90 max-md:w-full !important;
   }
 
