@@ -89,11 +89,11 @@
   }
 
   /* Book Overview */
-  .book-overview {
+  .course-overview {
     @apply flex flex-col-reverse items-center gap-12 sm:gap-32 xl:flex-row xl:gap-8;
   }
 
-  .book-overview h1 {
+  .course-overview h1 {
     @apply text-5xl font-semibold text-white md:text-7xl;
   }
 
