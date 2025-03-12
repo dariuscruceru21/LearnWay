@@ -1,11 +1,24 @@
-import React from 'react'
+import React from "react";
+import CourseCard from "./CourseCard";
 
-const CourseList = () => {
-  return (
-    <section>
-      <h2 className='font-bebas-neue text-4xl text-light-100'>Popular Courses</h2>
-    </section>
-  )
+interface Props {
+  title: string;
+  courses: Course[];
+  containerClassName?: string;
 }
 
-export default CourseList
+const CourseList = ({ title, courses, containerClassName }: Props) => {
+  return (
+    <section className={containerClassName}>
+      <h2 className="font-bebas-neue text-4xl text-light-100"> {title}</h2>
+
+      <ul className="course-list">
+        {courses.map((course) => (
+          <CourseCard key={course.title}  {...course}/>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+export default CourseList;

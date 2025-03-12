@@ -1,6 +1,9 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import React from "react";
 import Image from "next/image";
+
 import CourseCoverSvg from "./CourseCoverSvg";
 
 type CourseCoverVariant =
@@ -20,7 +23,7 @@ const variantStyles: Record<CourseCoverVariant, string> = {
 
 interface Props {
   className?: string;
-  variant: CourseCoverVariant;
+  variant?: CourseCoverVariant;
   coverColor: string;
   coverImage: string;
 }
@@ -44,7 +47,12 @@ const CourseCover = ({
         className="absolute z-10"
         style={{ left: "12%", width: "87.5%", height: "88%" }}
       >
-        <Image src={coverImage} alt="Course Cover" fill className="rounded-sm object-fill"/>
+        <Image
+          src={coverImage}
+          alt="Course Cover"
+          fill
+          className="rounded-sm object-fill"
+        />
       </div>
     </div>
   );

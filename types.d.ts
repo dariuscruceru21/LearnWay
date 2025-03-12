@@ -1,6 +1,6 @@
 interface Course{
 
-    id: numeber;
+    id: number;
     title : string;
     instructor : string;
     category : string;

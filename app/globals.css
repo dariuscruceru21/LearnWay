@@ -37,19 +37,19 @@
   }
 
   /* Book Card */
-  .book-title {
+  .course-title {
     @apply mt-2 line-clamp-1 text-base font-semibold text-white xs:text-xl;
   }
 
-  .book-genre {
+  .course-genre {
     @apply mt-1 line-clamp-1 text-sm italic text-light-100 xs:text-base;
   }
 
-  .book-loaned {
+  .course-full {
     @apply flex flex-row items-center gap-1 max-xs:justify-center;
   }
 
-  .book-btn {
+  .course-btn {
     @apply bg-dark-600 mt-3 min-h-14 w-full font-bebas-neue text-base text-primary;
   }
 
@@ -62,7 +62,7 @@
     @apply py-4 lg:px-16 px-10 flex justify-center items-center w-full rounded-lg;
   }
 
-  /* Book Cover */
+  /* Course Cover */
   .course-cover_extra_small {
     @apply w-[28.95px] h-10;
   }
@@ -82,6 +82,7 @@
   .course-cover_wide {
     @apply xs:w-[296px] w-[256px] xs:h-[404px] h-[354px];
   }
+  
 
   /* Book List */
   .course-list {
