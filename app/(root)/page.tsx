@@ -1,5 +1,5 @@
 import CourseList from "@/components/CourseList";
-import CourseOverview from "@/components/CourseOverview";
+ import CourseOverview from "@/components/CourseOverview";
 import { sampleCourses } from "@/constants";
 
 const Home = () => (
