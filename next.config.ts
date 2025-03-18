@@ -19,6 +19,10 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "wedevs.academy" },
       { protocol: "https", hostname: "i.ytimg.com" },
       { protocol: "https", hostname: "courses.wscubetech.com" },
+      {protocol:"https",
+      hostname:"ik.imagekit.io",
+      port:""
+      }
     ],
   },
 };
